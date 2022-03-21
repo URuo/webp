@@ -1,0 +1,46 @@
+/* body {
+    text-align: center;
+  } */
+  
+  /* div {
+    background: gray;
+    margin: 0 auto;
+    width: 200px;
+    padding: 100px;
+    text-align: center;
+    
+  } */
+
+  p {
+    display: inline-block;
+    background:skyblue;
+    padding:10px 8px;
+    margin-bottom:10px; 
+    font-size:18px; 
+  }
+
+  body {
+    height: 80px;
+    background: white;
+    text-align: center;
+    
+}
+
+@media(min-width: 540px) {
+    body {
+        background: darkgray;
+    }
+}
+
+@media(min-width: 768px) {
+    body {
+        background: gray;
+    }
+}
+
+@media(min-width: 920px) {
+    body {
+        color: white;
+        background: black;
+    }
+}
