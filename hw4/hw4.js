@@ -1,7 +1,7 @@
 let str = [];
 const text = document.getElementById('time');
 $(document).ready(function(){
-    for (var i = 0; i < 6; i++) {
+    for (var i = 0; i <= 6; i++) {
         str[i] = "";
     }
     let start = new Date().getTime();
@@ -33,10 +33,7 @@ $(document).ready(function(){
 })
 
 function randomStr(i) {
-    let ascii = Math.floor(Math.random()*26+65);
-    let char = String.fromCodePoint(ascii);
-    console.log(ascii);
-    console.log(char);
+    let char = String.fromCodePoint(Math.floor(Math.random()*26+65));
     str[i] = char + str[i];
     return char;
 }
