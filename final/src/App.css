@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: white;
+  height: 100vh;
+}
+
+.app_header {
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: inline-block;
+  width: 100%;
+}
+
+.app__signup {
+  display: flex;
+  /* border: 1px solid black; */
+  flex-direction: column;
+}
+
+.app__loginContainer {
+  /* display: inline-block; */
+  float: right;
+  /* padding: 19px; */
+}
+
+.img {
+  float: left;
+  margin-right: 50px;
+}
+
+.upload {
+  float: left;
+}
+
+.profile {
+  position: absolute;
+  right: 100px;
+  top: 70px;
+  display: inline-block;
+  width: auto;
+}
